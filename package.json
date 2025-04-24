@@ -1,0 +1,35 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "authentication app using express.js ,mongodb,nodejs,react,tailwind css",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express.js",
+    "mongodb",
+    "nodejs",
+    "react",
+    "tailwind",
+    "css"
+  ],
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9"
+  }
+}
